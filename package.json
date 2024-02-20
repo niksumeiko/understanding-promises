@@ -1,0 +1,38 @@
+{
+  "name": "understanding-promises",
+  "description": "In-depth exercises that will help to learn how Promises work in JavaScript.",
+  "private": true,
+  "version": "1.0.0",
+  "author": {
+    "name": "Nik Sumeiko",
+    "url": "https://withnik.com"
+  },
+  "type": "module",
+  "scripts": {
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "test:unit": "vitest",
+    "test:unit:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@vitest/coverage-v8": "^1.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "dotenv": "^16.4.2",
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-module-utils": "^2.8.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-internal": "file:packages/eslint-plugin-internal",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.1",
+    "vitest": "^1.2.2"
+  }
+}
